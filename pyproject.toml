@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "auto-games"
+version = "0.1.0"
+description = ""
+authors = ["dnrtk <asaz.dnrtk@gmail.com>"]
+readme = "README.md"
+packages = [{include = "auto_games"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+opencv-python = "^4.7.0.68"
+numpy = "^1.24.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
